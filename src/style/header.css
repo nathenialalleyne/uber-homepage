@@ -1,0 +1,48 @@
+header {
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 16px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: normal;
+  padding: 16px;
+}
+
+.header-options {
+  font-size: 14px;
+}
+
+.header-right,
+.header-left {
+  display: flex;
+}
+
+.button-div {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+#signup {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.header-options {
+  border-radius: 20px;
+  transition: background-color 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.header-options:hover {
+  background-color: lightgray;
+}

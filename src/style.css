@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "uberMove";
+  src: url("./assets/UberMoveMedium.otf");
+}
+
+@font-face {
+  font-family: "uberMoveBold";
+  src: url("./assets/UberMoveBold.otf");
+}
+
+:root {
+  font-family: "uberMove";
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-family: "uberMove";
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
