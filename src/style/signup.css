@@ -1,34 +1,74 @@
-.signup-container{
-  height: 100vh;
-  background-image: url('../assets/driving-background.jpg');
+.signup-container {
+  height: 700px;
+  background-image: url("../assets/driving-background.jpg");
   box-sizing: border-box;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 64px;
+  width: 100%;
+  background-position: center;
 }
 
-.main-part{
-  /* top: 64px;
-  left: 100px; */
+.main-part {
   margin-left: 100px;
   background-color: white;
-  height: 75%;
+  height: fit-content;
   width: fit-content;
-  padding: 16px
+}
+
+.reactive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+  height: 120px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.reactive-container:hover .main-option {
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: grey;
+}
+
+.reactive-container > button {
+  margin-top: 20px;
+  color: black;
+}
+
+.reactive-container:hover {
+  cursor: pointer;
+}
+
+#slider {
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  position: absolute;
+  background-color: black;
+  width: 70px;
+  height: 3px;
+  bottom: 0;
+}
+
+#icon {
+  width: 25px;
+  height: 25px;
 }
 
 .main-top > button {
-  color:black;
+  color: black;
   width: 48px;
 }
 
-.main-top{
-  background-color: lightgray;
+.main-top {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: space-around;
+  align-items: center;
   margin-bottom: 48px;
   width: 100%;
-  box-sizing: border-box;
-
+  border-bottom: 1px solid #eeeeee;
 }
 
+.main-option {
+  width: 70px;
+}
