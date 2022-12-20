@@ -1,0 +1,35 @@
+.uber-one-container {
+  display: flex;
+  padding: 48px;
+  padding-left: 10rem;
+}
+
+.uber-one-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 500px;
+}
+
+.uber-one-header {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.uber-one-button {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 20px 16px 20px;
+
+  border-radius: 8px;
+  width: fit-content;
+  display: grid;
+  place-items: center;
+}
+
+.uber-one-container > img {
+  width: 550px;
+  margin-left: 180px;
+}

@@ -1,0 +1,38 @@
+.business-part {
+  height: 200px;
+  padding: 32px;
+  padding-left: 10rem;
+  background-image: url(../assets/new-york-skyline.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.business-button {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 20px 16px 20px;
+
+  border-radius: 8px;
+  width: fit-content;
+  display: grid;
+  place-items: center;
+}
+
+.business-header {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.animation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.business-sub {
+  font-weight: 300;
+}

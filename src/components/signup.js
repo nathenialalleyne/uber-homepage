@@ -74,7 +74,11 @@ export function SignUp() {
   };
 
   return (
-    <div className="signup-container">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="800"
+      className="signup-container"
+    >
       <div className="main-part">
         <div className="main-top">
           <div
@@ -111,7 +115,10 @@ export function SignUp() {
         <div className="interactive-container">
           <div className="main-content">{mainText}</div>
           <div className="sub-content">{subText}</div>
-          <button className="main-button">{mainButton}</button>
+          <div className="bottom-container">
+            <button className="main-button">{mainButton}</button>
+            <a className="learn">Learn more about driving and delivering</a>
+          </div>
         </div>
       </div>
     </div>

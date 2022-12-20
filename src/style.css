@@ -9,7 +9,7 @@
 }
 
 :root {
-  font-family: "uberMove";
+  font-family: "Lexend Deca", sans-serif;
 }
 
 button {
@@ -17,7 +17,7 @@ button {
   background-color: transparent;
   outline: none;
   color: white;
-  font-family: "uberMove";
+  font-family: "Lexend Deca", sans-serif;
   margin: 0;
   padding: 0;
 }
