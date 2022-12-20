@@ -30,6 +30,13 @@
 }
 
 .uber-one-container > img {
-  width: 550px;
-  margin-left: 180px;
+  height: 380px;
+  width: 50%;
+  object-fit: cover;
+  margin-left: 220px;
+}
+
+.uber-one-sub-one,
+.uber-one-sub-two {
+  font-weight: 300;
 }

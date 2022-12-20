@@ -18,7 +18,7 @@ export function Business() {
         <div className="business-sub">
           Transform the way your company moves and feeds its people.
         </div>
-        <div className="business-button">See how</div>
+        <button className="business-button">See how</button>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import { SignUp } from "./components/signup";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { UberOne } from "./components/uberone";
+import { Saftey } from "./components/saftey";
 
 AOS.init({ once: true });
 
@@ -14,6 +15,7 @@ function App() {
       <SignUp />
       <Business />
       <UberOne />
+      <Saftey />
     </div>
   );
 }
