@@ -5,6 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { UberOne } from "./components/uberone";
 import { Saftey } from "./components/saftey";
+import { About } from "./components/about";
+import { Footer } from "./components/footer";
 
 AOS.init({ once: true });
 
@@ -16,6 +18,8 @@ function App() {
       <Business />
       <UberOne />
       <Saftey />
+      <About />
+      <Footer />
     </div>
   );
 }

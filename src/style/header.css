@@ -18,6 +18,10 @@ header {
   padding: 16px;
 }
 
+.header-logo:hover {
+  cursor: pointer;
+}
+
 .header-options {
   font-size: 14px;
 }
@@ -46,5 +50,5 @@ header {
 }
 
 .header-options:hover {
-  background-color: lightgray;
+  background-color: rgba(204, 194, 194, 0.29);
 }

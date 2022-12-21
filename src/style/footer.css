@@ -1,0 +1,137 @@
+footer {
+  height: calc(100vh - 48px);
+  padding: 32px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  background-color: black;
+  color: white;
+}
+
+.disclaimer-container {
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.footer-logo-sub {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.footer-logo {
+  font-size: 20px;
+}
+
+.footer-sub {
+  font-weight: 300;
+  width: fit-content;
+  position: relative;
+}
+
+.footer-sub:hover {
+  cursor: pointer;
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.footer-line-anim > div :hover {
+  visibility: visible;
+}
+
+.footer-line-anim {
+  position: absolute;
+  visibility: hidden;
+  background-color: lightgray;
+  width: 0%;
+  height: 1px;
+  top: 60px;
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.footer-links {
+  margin-top: 5rem;
+  display: flex;
+}
+.footer-links > div {
+  margin-right: auto;
+}
+
+.foot-header {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.foot-link {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.foot-link:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.socials {
+  margin-top: 112px;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.social-icon {
+  width: 20px;
+  padding: 10px;
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 20%;
+}
+
+.social-icon:first-child {
+}
+
+.social-icon:hover {
+  background-color: rgba(204, 194, 194, 0.29);
+  cursor: pointer;
+}
+
+.download {
+  margin-top: 48px;
+}
+
+.store {
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.store:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  font-weight: 200;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.copyright-right {
+  display: flex;
+  gap: 16px;
+}
+
+.copyright-right > div:hover {
+  cursor: pointer;
+  color: darkgray;
+}

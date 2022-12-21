@@ -5,7 +5,9 @@ export function Header() {
     <header>
       <div className="header-container">
         <div className="header-right">
-          <div className="header-logo">Uber</div>
+          <a href=".." className="header-logo">
+            Uber
+          </a>
           <button className="header-options">Company</button>
           <button className="header-options">Safety</button>
           <button className="header-options">Help</button>
