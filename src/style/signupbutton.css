@@ -1,0 +1,61 @@
+.sign-up-container {
+  padding: 32px;
+  padding-left: 10rem;
+  display: flex;
+  gap: 10.5rem;
+}
+
+.sign-up-container > div {
+  width: 560px;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.sign-up-container > div:hover {
+  cursor: pointer;
+}
+
+.sign-up-container > div:hover .sign-icon-r {
+  transform: translateX(164px);
+  transition: all 300ms ease-in-out;
+}
+
+.sign-up-container > div:hover .sign-icon-l {
+  transform: translateX(154px);
+  transition: all 300ms ease-in-out;
+}
+
+.inside-icon {
+  position: absolute;
+  visibility: hidden;
+  left: 50px;
+}
+
+.sign-ride {
+  position: relative;
+}
+
+.hide {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  z-index: 100;
+  right: 30px;
+}
+
+.hide-l {
+  position: absolute;
+  background-color: white;
+  z-index: 100;
+  width: 200px;
+  height: 50px;
+  left: 490px;
+}

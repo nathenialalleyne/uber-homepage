@@ -1,0 +1,64 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: lightgray;
+  padding: 32px;
+  padding-left: 10rem;
+}
+
+.app > img {
+  width: 150px;
+  height: 150px;
+}
+
+.app-header {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.app-card-container {
+  display: flex;
+  gap: 10rem;
+}
+
+.app {
+  display: flex;
+  height: 150px;
+  background-color: white;
+  align-items: center;
+  padding: 32px;
+  width: 500px;
+  border: grey 0.5px solid;
+  gap: 16px;
+  transition: all 500ms;
+  overflow: hidden;
+}
+
+.app-text {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.app-arrow {
+  height: 20px;
+}
+
+.arrow-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.app:hover {
+  cursor: pointer;
+}
+
+.app-arrow {
+  transition: all 400ms;
+}
+
+.app:hover .arrow-text .app-arrow {
+  transform: translateX(20px);
+}

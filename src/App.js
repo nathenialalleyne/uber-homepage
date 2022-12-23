@@ -7,6 +7,8 @@ import { UberOne } from "./components/uberone";
 import { Saftey } from "./components/saftey";
 import { About } from "./components/about";
 import { Footer } from "./components/footer";
+import { MoreToLove } from "./components/more";
+import { SignUpButtons } from "./components/signupbutton";
 
 AOS.init({ once: true });
 
@@ -19,6 +21,8 @@ function App() {
       <UberOne />
       <Saftey />
       <About />
+      <MoreToLove />
+      <SignUpButtons />
       <Footer />
     </div>
   );
