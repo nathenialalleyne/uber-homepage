@@ -1,14 +1,15 @@
 .uber-one-container {
   display: flex;
   padding: 48px;
-  padding-left: 10rem;
+  padding-left: 10%;
+  transition: all 500ms ease-in-out;
 }
 
 .uber-one-text-container {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  width: 500px;
+  width: 30%;
 }
 
 .uber-one-header {
@@ -39,4 +40,26 @@
 .uber-one-sub-one,
 .uber-one-sub-two {
   font-weight: 300;
+}
+
+@media (max-width: 1410px) {
+  .uber-one-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .uber-one-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+  }
+
+  .uber-one-container > img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 0;
+  }
 }

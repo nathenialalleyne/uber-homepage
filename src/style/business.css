@@ -1,7 +1,7 @@
 .business-part {
   height: 200px;
   padding: 32px;
-  padding-left: 10rem;
+  padding-left: 10%;
   background-image: url(../assets/new-york-skyline.jpg);
   background-size: cover;
   display: flex;

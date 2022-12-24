@@ -1,7 +1,7 @@
 footer {
   height: calc(100vh - 48px);
   padding: 32px;
-  padding-left: 10rem;
+  padding-left: 10%;
   padding-right: 10rem;
   background-color: black;
   color: white;

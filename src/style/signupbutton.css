@@ -1,12 +1,12 @@
 .sign-up-container {
   padding: 32px;
-  padding-left: 10rem;
+  padding-left: 10%;
   display: flex;
-  gap: 10.5rem;
+  justify-content: space-between;
 }
 
 .sign-up-container > div {
-  width: 560px;
+  min-width: 560px;
   text-align: left;
   font-size: 32px;
   font-weight: 500;
@@ -38,7 +38,8 @@
   left: 50px;
 }
 
-.sign-ride {
+.sign-ride,
+.sign-drive {
   position: relative;
 }
 
@@ -57,5 +58,5 @@
   z-index: 100;
   width: 200px;
   height: 50px;
-  left: 490px;
+  right: 30px;
 }

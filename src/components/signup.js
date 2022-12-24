@@ -121,6 +121,10 @@ export function SignUp() {
           </div>
         </div>
       </div>
+      <img
+        className="responsive-img"
+        src={require("../assets/driving-background.jpg")}
+      ></img>
     </div>
   );
 }

@@ -10,7 +10,7 @@
 }
 
 .main-part {
-  margin-left: 10rem;
+  margin-left: 10%;
   background-color: white;
   height: 85%;
   width: 600px;
@@ -116,4 +116,55 @@
 .learn:hover {
   cursor: pointer;
   border-bottom: 1px black solid;
+}
+
+.responsive-img {
+  position: absolute;
+  width: 400px;
+  visibility: hidden;
+}
+
+@media (max-width: 1150px) {
+  .signup-container {
+    padding-top: 0;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .responsive-img {
+    position: relative;
+    visibility: visible;
+    width: 100%;
+  }
+
+  .main-part {
+    margin: 0;
+    width: 100%;
+    height: max-content;
+  }
+
+  .main-top {
+    margin-left: 16px;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+
+  .interactive-container {
+    padding-left: 32px;
+    padding-bottom: 32px;
+  }
+
+  .main-content {
+    font-size: 40px;
+  }
+
+  .bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .learn {
+  }
 }
