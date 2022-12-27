@@ -7,6 +7,7 @@
   padding-top: 64px;
   width: 100%;
   background-position: center;
+  overflow: hidden;
 }
 
 .main-part {
@@ -127,7 +128,7 @@
 @media (max-width: 1150px) {
   .signup-container {
     padding-top: 0;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
   }
 

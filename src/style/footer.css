@@ -2,9 +2,10 @@ footer {
   height: calc(100vh - 48px);
   padding: 32px;
   padding-left: 10%;
-  padding-right: 10rem;
+  padding-right: 10%;
   background-color: black;
   color: white;
+  width: 100vw;
 }
 
 .disclaimer-container {
@@ -134,4 +135,35 @@ footer {
 .copyright-right > div:hover {
   cursor: pointer;
   color: darkgray;
+}
+
+@media (max-width: 1150px) {
+  footer {
+    height: 100vh;
+    padding: 32px;
+  }
+
+  .disclaimer-container {
+    align-items: flex-start;
+    margin-bottom: 32px;
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    height: max-content;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .socials {
+    width: 100%;
+  }
 }

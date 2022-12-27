@@ -19,7 +19,8 @@
 
 .app-card-container {
   display: flex;
-  gap: 10rem;
+  justify-content: space-between;
+  max-width: 1600px;
 }
 
 .app {
@@ -28,7 +29,7 @@
   background-color: white;
   align-items: center;
   padding: 32px;
-  width: 500px;
+  min-width: 40%;
   border: grey 0.5px solid;
   gap: 16px;
   transition: all 500ms;
@@ -61,4 +62,10 @@
 
 .app:hover .arrow-text .app-arrow {
   transform: translateX(20px);
+}
+
+@media (max-width: 1150px) {
+  .app-container {
+    padding-left: 32px;
+  }
 }
