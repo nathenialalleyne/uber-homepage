@@ -145,7 +145,7 @@ footer {
   cursor: pointer;
   color: darkgray;
 }
-
+/* 
 @media (max-width: 1150px) {
   footer {
     height: 100vh;
@@ -162,17 +162,27 @@ footer {
     grid-template-columns: 1fr 1fr;
     row-gap: 32px;
   }
-}
+} */
 
 @media (max-width: 600px) {
+  .disclaimer-container {
+    align-items: flex-start;
+    margin-bottom: 32px;
+  }
   .footer-container {
     height: max-content;
   }
   .footer-links {
     display: flex;
     flex-direction: column;
+    gap: 32px;
   }
   .socials {
-    width: 100%;
+    width: 80%;
+  }
+
+  .copyright {
+    flex-direction: column;
+    gap: 32px;
   }
 }
