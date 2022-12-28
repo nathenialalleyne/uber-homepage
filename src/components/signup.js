@@ -79,45 +79,45 @@ export function SignUp() {
       data-aos-duration="800"
       className="signup-container"
     >
-      <div className="main-part">
-        <div className="main-top">
-          <div
-            onClick={(e) => {
-              change(e.target);
-            }}
-            className="reactive-container"
-          >
-            <img id="icon" src={require("../assets/bar-graph.png")}></img>
-            <button className="main-option selected">Drive or deliver</button>
-            <div id="slider"></div>
+      <div className="main-container">
+        <div className="main-part">
+          <div className="main-top">
+            <div
+              onClick={(e) => {
+                change(e.target);
+              }}
+              className="reactive-container"
+            >
+              <img id="icon" src={require("../assets/bar-graph.png")}></img>
+              <button className="main-option selected">Drive or deliver</button>
+              <div id="slider"></div>
+            </div>
+            <div
+              onClick={(e) => {
+                change(e.target);
+              }}
+              className="reactive-container"
+            >
+              <img id="icon" src={require("../assets/cutlery.png")}></img>
+              <button className="main-option">Eat</button>
+            </div>
+            <div
+              onClick={(e) => {
+                change(e.target);
+              }}
+              className="reactive-container"
+            >
+              <img id="icon" src={require("../assets/car.png")}></img>
+              <button className="main-option">Ride</button>
+            </div>
           </div>
-
-          <div
-            onClick={(e) => {
-              change(e.target);
-            }}
-            className="reactive-container"
-          >
-            <img id="icon" src={require("../assets/cutlery.png")}></img>
-            <button className="main-option">Eat</button>
-          </div>
-
-          <div
-            onClick={(e) => {
-              change(e.target);
-            }}
-            className="reactive-container"
-          >
-            <img id="icon" src={require("../assets/car.png")}></img>
-            <button className="main-option">Ride</button>
-          </div>
-        </div>
-        <div className="interactive-container">
-          <div className="main-content">{mainText}</div>
-          <div className="sub-content">{subText}</div>
-          <div className="bottom-container">
-            <button className="main-button">{mainButton}</button>
-            <a className="learn">Learn more about driving and delivering</a>
+          <div className="interactive-container">
+            <div className="main-content">{mainText}</div>
+            <div className="sub-content">{subText}</div>
+            <div className="bottom-container">
+              <button className="main-button">{mainButton}</button>
+              <a className="learn">Learn more about driving and delivering</a>
+            </div>
           </div>
         </div>
       </div>

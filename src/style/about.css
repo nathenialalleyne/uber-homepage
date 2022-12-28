@@ -1,11 +1,18 @@
 .about-whole-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-size-container {
   padding: 32px;
-  padding-left: 10%;
   display: flex;
   max-width: 1600px;
   justify-content: space-between;
+  flex-grow: 1;
+  padding: 2%;
 }
-
 .about-container,
 .newsroom-container,
 .global-container {
@@ -37,7 +44,8 @@
   max-width: fit-content;
 }
 
-.about-link:hover .news-link:hover,
+.about-link:hover,
+.news-link:hover,
 .global-link:hover {
   cursor: pointer;
   border-bottom: 1px black solid;
