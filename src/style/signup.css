@@ -1,16 +1,15 @@
 .signup-container {
   height: 700px;
-  background-image: url("../assets/driving-background.jpg");
   box-sizing: border-box;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 64px;
   width: 100%;
   background-position: center;
   overflow: hidden;
   display: flex;
   justify-content: center;
   padding: 2%;
+  padding-top: 0;
 }
 
 .main-container {
@@ -20,8 +19,10 @@
 
 .main-part {
   background-color: white;
-  height: 85%;
+  height: fit-content;
   width: 600px;
+  margin-top: 2%;
+  padding-bottom: 5%;
 }
 
 .reactive-container {
@@ -38,6 +39,7 @@
 .reactive-container:hover .main-option {
   transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
   color: grey;
+  cursor: pointer;
 }
 
 .reactive-container > button {
@@ -102,7 +104,13 @@
   flex-direction: column;
 }
 
-.main-button {
+.bottom-button-container {
+  display: flex;
+  gap: 32px;
+}
+
+.main-button,
+.schedule {
   color: white;
   background-color: black;
   font-size: 16px;
@@ -112,43 +120,111 @@
   width: fit-content;
 }
 
+.schedule {
+  background-color: lightgray;
+  color: black;
+  visibility: hidden;
+  position: absolute;
+}
+
 .learn {
   font-weight: 300;
   margin-top: 32px;
-  border-bottom: 1px lightgray solid;
   transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   width: fit-content;
   padding-bottom: 5px;
+  text-decoration: underline;
+  text-decoration-color: lightgray;
+  text-underline-offset: 8px;
 }
 
 .learn:hover {
   cursor: pointer;
-  border-bottom: 1px black solid;
+  text-decoration-color: black;
 }
 
 .responsive-img {
   position: absolute;
-  width: 400px;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
   visibility: hidden;
+}
+
+input:focus {
+  outline-width: 0;
+}
+.request-input {
+  width: 95%;
+  border: 0;
+  font-size: 16px;
+  background-color: #f4f4f4;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  border: black 1px solid;
+  position: relative;
+}
+
+.square {
+  width: 8px;
+  height: 8px;
+  border: black 1px solid;
+}
+
+.line {
+  position: absolute;
+  width: 1px;
+  height: 48px;
+  background-color: black;
+  left: 3.48px;
+  top: 10px;
+}
+
+.shape-container {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  color: #f9f9f9;
+  width: 100%;
+  gap: 16px;
+  padding: 12px;
 }
 
 @media (max-width: 1150px) {
   .signup-container {
-    padding-top: 0;
     height: 100%;
-    background-size: cover;
+    flex-direction: column;
+    padding: 0;
   }
 
   .responsive-img {
     position: relative;
     visibility: visible;
     width: 100%;
+    padding: 0;
+    z-index: 1;
   }
 
   .main-part {
     margin: 0;
     width: 100%;
     height: max-content;
+    padding-bottom: 16px;
   }
 
   .main-top {
@@ -158,8 +234,8 @@
   }
 
   .interactive-container {
-    padding-left: 32px;
-    padding-bottom: 32px;
+    padding: 2%;
+    padding-top: 0;
   }
 
   .main-content {
