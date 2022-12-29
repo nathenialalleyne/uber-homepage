@@ -5,6 +5,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
 .header-container {
@@ -35,12 +36,33 @@ header {
 .header-right,
 .header-left {
   display: flex;
+  align-items: center;
 }
 
 .button-div {
   display: flex;
   gap: 16px;
   padding: 16px;
+}
+
+.menu-button-dash {
+  width: 16px;
+  height: 2px;
+  background-color: white;
+}
+
+.menu-button {
+  border-radius: 50%;
+  padding: 8px;
+  height: 32px;
+}
+
+.menu-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  transition: all 500ms;
 }
 
 #signup {
@@ -50,7 +72,25 @@ header {
   border-radius: 20px;
 }
 
+#signup:hover {
+  background-color: rgba(244, 244, 244, 0.68);
+}
+
+#login {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.en-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
 .header-options {
+  height: fit-content;
+  padding: 8px;
   border-radius: 20px;
   transition: background-color 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -58,3 +98,18 @@ header {
 .header-options:hover {
   background-color: rgba(204, 194, 194, 0.29);
 }
+/* 
+.menu-button:hover {
+  position: relative;
+}
+
+.menu-button:hover div {
+  position: absolute;
+}
+
+.menu-button:hover .r {
+  transform: rotate(45deg) translateY(-50%);
+}
+.menu-button:hover .l {
+  transform: rotate(-45deg);
+} */

@@ -9,13 +9,19 @@ import { About } from "./components/about";
 import { Footer } from "./components/footer";
 import { MoreToLove } from "./components/more";
 import { SignUpButtons } from "./components/signupbutton";
+import { Menu } from "./components/menu";
+import { useEffect, useRef, useState } from "react";
 
 AOS.init({ once: true });
 
 function App() {
+  const [visible, setVisible] = useState(false);
   return (
     <div className="App">
-      <Header />
+      <Header dis={visible} vis={setVisible} />
+
+      {visible == true ? <Menu vis={setVisible} /> : null}
+
       <SignUp />
       <Business />
       <UberOne />
