@@ -14,7 +14,7 @@
 }
 
 .sign-up-size-container > div {
-  max-width: 660px;
+  max-width: 790px;
   text-align: left;
   font-size: 32px;
   font-weight: 500;
@@ -31,44 +31,52 @@
   cursor: pointer;
 }
 
-.sign-up-size-container > div:hover .sign-icon-r {
-  transform: translateX(10%);
-  transition: all 300ms ease-in-out;
-}
-
-.sign-up-container > div:hover .sign-icon-l {
-  transform: translateX();
-  transition: all 300ms ease-in-out;
-}
-
-.inside-icon {
-  position: absolute;
-  visibility: hidden;
-  left: 50px;
-}
-
 .sign-ride,
 .sign-drive {
   position: relative;
+  transition: all 500ms;
 }
 
-.hide {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  background-color: white;
-  z-index: 100;
-  right: 30px;
+.arrow-container {
+  display: flex;
+  align-items: center;
 }
 
-.hide-l {
-  position: absolute;
-  visibility: hidden;
+.arrow-hide {
+  width: 28px;
+  height: 32px;
   background-color: white;
-  z-index: 100;
-  width: 30%;
-  height: 50px;
-  right: 30px;
+}
+
+.sign-icon-l {
+}
+
+.ah-sign-icon-l {
+  position: absolute;
+  z-index: -100;
+}
+.sign-drive:hover .arrow-container .arrow-hide .ah-sign-icon-l {
+  transform: translate(28px);
+  transition: all 400ms;
+}
+
+.sign-drive:hover .arrow-container .sign-icon-l {
+  transform: translate(32px);
+  transition: all 200ms;
+}
+
+.ah-sign-icon-r {
+  position: absolute;
+  z-index: -100;
+}
+.sign-ride:hover .arrow-container .arrow-hide .ah-sign-icon-r {
+  transform: translate(28px);
+  transition: all 400ms;
+}
+
+.sign-ride:hover .arrow-container .sign-icon-r {
+  transform: translate(32px);
+  transition: all 200ms;
 }
 
 @media (max-width: 1290px) {

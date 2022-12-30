@@ -17,16 +17,22 @@ export function SignUpButtons() {
           }}
           className="sign-drive"
         >
-          <div className="hide-l"></div>
           <div className="sign-text">Sign up to drive</div>
-          <FontAwesomeIcon className="sign-icon-l" icon={faArrowRight} />
-          <FontAwesomeIcon className="sign-icon-l" icon={faArrowRight} />
+          <div className="arrow-container">
+            <div className="arrow-hide">
+              <FontAwesomeIcon className="ah-sign-icon-l" icon={faArrowRight} />
+            </div>
+            <FontAwesomeIcon className="sign-icon-l" icon={faArrowRight} />
+          </div>
         </div>
         <div className="sign-ride">
           <div className="sign-text">Sign up to ride</div>
-          <div className="hide"></div>
-          <FontAwesomeIcon className="sign-icon-r" icon={faArrowRight} />
-          <FontAwesomeIcon className="sign-icon-r" icon={faArrowRight} />
+          <div className="arrow-container">
+            <div className="arrow-hide">
+              <FontAwesomeIcon className="ah-sign-icon-r" icon={faArrowRight} />
+            </div>
+            <FontAwesomeIcon className="sign-icon-r" icon={faArrowRight} />
+          </div>
         </div>
       </div>
     </div>
