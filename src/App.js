@@ -16,11 +16,14 @@ AOS.init({ once: true });
 
 function App() {
   const [visible, setVisible] = useState(false);
+  const [clickClose, setClickClose] = useState(false);
   return (
     <div className="App">
-      <Header dis={visible} vis={setVisible} />
+      <Header cc={setClickClose} dis={visible} vis={setVisible} />
 
-      {visible == true ? <Menu vis={setVisible} /> : null}
+      {visible == true ? (
+        <Menu cc={clickClose} dis={visible} vis={setVisible} />
+      ) : null}
 
       <SignUp />
       <Business />

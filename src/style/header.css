@@ -5,7 +5,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 2000;
 }
 
 .header-container {
@@ -63,6 +63,8 @@ header {
   gap: 5px;
   justify-content: center;
   transition: all 500ms;
+  visibility: hidden;
+  position: absolute;
 }
 
 #signup {
@@ -98,18 +100,28 @@ header {
 .header-options:hover {
   background-color: rgba(204, 194, 194, 0.29);
 }
-/* 
-.menu-button:hover {
+
+/* .menu-button:hover {
   position: relative;
 }
 
 .menu-button:hover div {
   position: absolute;
+} */
+
+.l,
+.r {
+  transition: all 500ms;
 }
 
-.menu-button:hover .r {
-  transform: rotate(45deg) translateY(-50%);
+@media (max-width: 1150px) {
+  .menu-button-container {
+    visibility: visible;
+    position: static;
+  }
+
+  .header-options {
+    visibility: hidden;
+    position: absolute;
+  }
 }
-.menu-button:hover .l {
-  transform: rotate(-45deg);
-} */

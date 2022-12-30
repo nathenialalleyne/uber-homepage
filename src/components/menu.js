@@ -1,18 +1,25 @@
 import "../style/menu.css";
-import "../selectiveReset.css";
 import { useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGrip, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export function Menu(props) {
-  let setVisible = props.vis;
-  let setDisplay = props.dis;
+  let display = props.dis;
   let show = false;
   let optionDrop = useRef(null);
-  let styles = { transform: "translateY(0)" };
+  let menu = useRef(null);
+  let clickClose = props.cc;
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (display == true) {
+        menu.current.style.transform = "translateY(0)";
+      }
+    }, 1);
+  });
 
   return (
-    <div className="menu-container" style={styles}>
+    <div className="menu-container" ref={menu}>
       <div className="option-container">
         <button
           onClick={() => {
