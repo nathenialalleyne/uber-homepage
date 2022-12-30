@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uber-homepage/static/css/main.bf34a0ce.css",
+    "main.css": "/uber-homepage/static/css/main.00d11471.css",
     "main.js": "/uber-homepage/static/js/main.cc76ccb3.js",
     "static/media/driver-with-pass.jpg": "/uber-homepage/static/media/driver-with-pass.49a0934261234a9cde50.jpg",
     "static/media/car-ride.jpg": "/uber-homepage/static/media/car-ride.a3343ff26be667fbcebb.jpg",
@@ -14,11 +14,11 @@
     "static/media/UberMoveMedium.otf": "/uber-homepage/static/media/UberMoveMedium.ffd4e7c1c17016ed7b69.otf",
     "static/media/appstore.png": "/uber-homepage/static/media/appstore.59379998dd874f176a4b.png",
     "index.html": "/uber-homepage/index.html",
-    "main.bf34a0ce.css.map": "/uber-homepage/static/css/main.bf34a0ce.css.map",
+    "main.00d11471.css.map": "/uber-homepage/static/css/main.00d11471.css.map",
     "main.cc76ccb3.js.map": "/uber-homepage/static/js/main.cc76ccb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf34a0ce.css",
+    "static/css/main.00d11471.css",
     "static/js/main.cc76ccb3.js"
   ]
 }
