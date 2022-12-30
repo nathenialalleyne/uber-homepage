@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/nathenialalleyne/uber-homepage/static/css/main.1b24580f.css",
-    "main.js": "/nathenialalleyne/uber-homepage/static/js/main.4893938e.js",
-    "static/media/driver-with-pass.jpg": "/nathenialalleyne/uber-homepage/static/media/driver-with-pass.49a0934261234a9cde50.jpg",
-    "static/media/car-ride.jpg": "/nathenialalleyne/uber-homepage/static/media/car-ride.a3343ff26be667fbcebb.jpg",
-    "static/media/driving-background.jpg": "/nathenialalleyne/uber-homepage/static/media/driving-background.0f02ef5921faa807a4a6.jpg",
-    "static/media/food-delivery.jpg": "/nathenialalleyne/uber-homepage/static/media/food-delivery.47c65e2c94220c87587b.jpg",
-    "static/media/intersection.jpg": "/nathenialalleyne/uber-homepage/static/media/intersection.72d0d2a4dab18fa76b31.jpg",
-    "static/media/new-york-skyline.jpg": "/nathenialalleyne/uber-homepage/static/media/new-york-skyline.9da0e81be4202005e391.jpg",
-    "static/media/uber-one.jpg": "/nathenialalleyne/uber-homepage/static/media/uber-one.2df8b87448e64d5fb29d.jpg",
-    "static/media/playstore.png": "/nathenialalleyne/uber-homepage/static/media/playstore.d57e1a735b5905ae9a75.png",
-    "static/media/UberMoveBold.otf": "/nathenialalleyne/uber-homepage/static/media/UberMoveBold.425d0456b130e62e2c51.otf",
-    "static/media/UberMoveMedium.otf": "/nathenialalleyne/uber-homepage/static/media/UberMoveMedium.ffd4e7c1c17016ed7b69.otf",
-    "static/media/appstore.png": "/nathenialalleyne/uber-homepage/static/media/appstore.59379998dd874f176a4b.png",
-    "index.html": "/nathenialalleyne/uber-homepage/index.html",
-    "main.1b24580f.css.map": "/nathenialalleyne/uber-homepage/static/css/main.1b24580f.css.map",
-    "main.4893938e.js.map": "/nathenialalleyne/uber-homepage/static/js/main.4893938e.js.map"
+    "main.css": "/uber-homepage/static/css/main.bf34a0ce.css",
+    "main.js": "/uber-homepage/static/js/main.cc76ccb3.js",
+    "static/media/driver-with-pass.jpg": "/uber-homepage/static/media/driver-with-pass.49a0934261234a9cde50.jpg",
+    "static/media/car-ride.jpg": "/uber-homepage/static/media/car-ride.a3343ff26be667fbcebb.jpg",
+    "static/media/driving-background.jpg": "/uber-homepage/static/media/driving-background.0f02ef5921faa807a4a6.jpg",
+    "static/media/food-delivery.jpg": "/uber-homepage/static/media/food-delivery.47c65e2c94220c87587b.jpg",
+    "static/media/intersection.jpg": "/uber-homepage/static/media/intersection.72d0d2a4dab18fa76b31.jpg",
+    "static/media/new-york-skyline.jpg": "/uber-homepage/static/media/new-york-skyline.9da0e81be4202005e391.jpg",
+    "static/media/uber-one.jpg": "/uber-homepage/static/media/uber-one.2df8b87448e64d5fb29d.jpg",
+    "static/media/playstore.png": "/uber-homepage/static/media/playstore.d57e1a735b5905ae9a75.png",
+    "static/media/UberMoveBold.otf": "/uber-homepage/static/media/UberMoveBold.425d0456b130e62e2c51.otf",
+    "static/media/UberMoveMedium.otf": "/uber-homepage/static/media/UberMoveMedium.ffd4e7c1c17016ed7b69.otf",
+    "static/media/appstore.png": "/uber-homepage/static/media/appstore.59379998dd874f176a4b.png",
+    "index.html": "/uber-homepage/index.html",
+    "main.bf34a0ce.css.map": "/uber-homepage/static/css/main.bf34a0ce.css.map",
+    "main.cc76ccb3.js.map": "/uber-homepage/static/js/main.cc76ccb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b24580f.css",
-    "static/js/main.4893938e.js"
+    "static/css/main.bf34a0ce.css",
+    "static/js/main.cc76ccb3.js"
   ]
 }
