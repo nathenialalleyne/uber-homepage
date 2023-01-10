@@ -1,4 +1,5 @@
 **Uber Homepage Remake**
+========================
 
 Welcome to my responsive remake of the Uber homepage. The project was developed as a way to demonstrate my understanding of responsive web design and my ability to replicate an existing design.
 
