@@ -11,7 +11,7 @@ Some of the key features of the responsive redesign include:
 
 - A mobile-first design that looks great on all devices
 
-- A flexible grid layout that adapts to different screen sizes
+- A flexible layout that adapts to different screen sizes
 
 - A modern, clean look that is easy to navigate
 
